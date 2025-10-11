@@ -1,7 +1,5 @@
 package com.study.spring.context;
 
-import com.study.spring.context.AnnotationApplicationContext;
-
 /**
  * @ClassName AnnotationApplicationContextTest
  * @Description
