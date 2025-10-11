@@ -1,0 +1,14 @@
+package com.study.spring.aop.bean.aop;
+
+import com.study.spring.aop.advice.AfterReturningAdvice;
+
+import java.lang.reflect.Method;
+
+public class MyAfterReturningAdvice implements AfterReturningAdvice {
+
+	@Override
+	public void afterReturning(Object returnValue, Method method, Object[] args, Object target) throws Throwable {
+		System.out.println(this + " 对 " + target + " 做了afterReturning增强，得到的返回值=" + returnValue);
+	}
+
+}
