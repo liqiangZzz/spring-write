@@ -1,5 +1,8 @@
-# IntelliJ IDEA files
+# IntelliJ IDEA
 .idea/
+*.iws
+*.iml
+*.ipr
 
 HELP.md
 target/
@@ -20,10 +23,6 @@ build/
 .springBeans
 .sts4-cache
 
-*.iml
-*.ipr
-*.iws
-
 buildSrc/.gradle
 
 ### VS Code ###
@@ -32,3 +31,7 @@ buildSrc/.gradle
 # 忽略编译产生的临时文件和输出目录
 target/
 build/
+*.class
+
+.DS_Store
+Thumbs.db
