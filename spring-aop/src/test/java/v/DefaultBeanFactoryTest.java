@@ -107,6 +107,7 @@ public class DefaultBeanFactoryTest {
 
     @AfterClass
     public static void testGetBean() throws Throwable {
+
 //        System.out.println("构造方法方式------------");
 //        for (int i = 0; i < 3; i++) {
 //            ABean ab = (ABean) bf.getBean("aBean");
