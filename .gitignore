@@ -1,0 +1,34 @@
+# IntelliJ IDEA files
+.idea/
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+# Gradle build files
+build/
+.gradle/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+*.iml
+*.ipr
+*.iws
+
+buildSrc/.gradle
+
+### VS Code ###
+.vscode/
+
+# 忽略编译产生的临时文件和输出目录
+target/
+build/
