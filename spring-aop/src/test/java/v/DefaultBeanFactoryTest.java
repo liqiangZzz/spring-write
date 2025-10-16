@@ -42,7 +42,7 @@ public class DefaultBeanFactoryTest {
 
         args.add(new BeanReference("ccbean"));
         bd.setConstructorArgumentValues(args);
-
+        System.out.println();
         bf.registerBeanDefinition("aBean", bd);
 
     }
