@@ -1,10 +1,10 @@
 package com.spring.di.factory;
 
-import com.spring.beans.BeanDefinition;
-import com.spring.beans.BeanReference;
-import com.spring.exception.BeanDefinitionRegistryException;
-import com.spring.fatory.BeanFactory;
-import com.spring.registry.BeanDefinitionRegistry;
+import com.study.spring.beans.BeanDefinition;
+import com.study.spring.beans.BeanReference;
+import com.study.spring.exception.BeanDefinitionRegistryException;
+import com.study.spring.fatory.BeanFactory;
+import com.study.spring.registry.BeanDefinitionRegistry;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;

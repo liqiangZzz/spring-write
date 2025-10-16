@@ -1,7 +1,8 @@
 package com.study.spring.registry;
 
-import com.spring.beans.BeanDefinition;
-import com.spring.exception.BeanDefinitionRegistryException;
+
+import com.study.spring.beans.BeanDefinition;
+import com.study.spring.exception.BeanDefinitionRegistryException;
 
 /**
  * @InterfaceName BeanDefinitionRegistry

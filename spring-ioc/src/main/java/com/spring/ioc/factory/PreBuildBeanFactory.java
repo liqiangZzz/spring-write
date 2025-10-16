@@ -1,6 +1,6 @@
 package com.spring.ioc.factory;
 
-import com.spring.beans.BeanDefinition;
+import com.study.spring.beans.BeanDefinition;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Map;
